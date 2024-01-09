@@ -3,7 +3,7 @@
     <div class="max-w-2xl mx-auto bg-white p-4 shadow rounded-lg flex">
       <div class="flex flex-col w-1/2 items-center">
         <div class="flex items-center mb-7">
-  <v-icon size="30" class="icon-background mr-4">mdi-printer</v-icon> <!-- Custom background size -->
+  <v-icon size="30" class="icon-background mr-4">mdi-printer</v-icon> 
           <div class="flex-grow">
             <h2 class="text-xl font-bold text-gray-800 truncate mb-2">Canon-IPF6400</h2>
             <p class="text-sm text-gray-500">172.16.254.1</p>
@@ -46,10 +46,10 @@ export default {
 <style>
 @import "https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css";
 .icon-background {
-  background-color: #d2d2d2; /* Tailwind CSS gray-300 */
-  padding: 25px; /* Adjust this value to increase/decrease the background size */
-  border-radius: 0.25rem; /* Tailwind CSS rounded-sm */
-  display: inline-flex; /* To center the icon in the background */
+  background-color: #d2d2d2; 
+  padding: 25px; 
+  border-radius: 0.25rem; 
+  display: inline-flex; 
   align-items: center;
   justify-content: center;
 }
